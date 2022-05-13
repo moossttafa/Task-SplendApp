@@ -290,7 +290,7 @@ header {
     h3{
       color: #001c71;
       font-weight: 700;
-      font-size: 24px;
+      font-size: 18px;
     }
   } 
 }
@@ -342,7 +342,7 @@ header {
     }
   }
   .content{
-    padding-top: 50px;
+    padding-top: 30px;
     width: 40%;
     h3{
       color: $mainColor2;
@@ -364,12 +364,12 @@ header {
     .banner__wrapper{
       .content{
         h3{
-          font-size: 20px;
+          font-size: 18px;
           margin-bottom: 2px;
           margin-left: 10px;
         }
         p{
-          font-size: 36px;
+          font-size: 32px;
           margin-bottom: 2px;
           font-family: poppins;
         }
@@ -417,7 +417,7 @@ header {
 .bookcases{
   padding: 20px 0;
   background-color: #f5f5f5;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
   .banner__wrapper{
     .content{
       h3{
