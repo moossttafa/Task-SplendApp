@@ -552,6 +552,9 @@ header {
   }
   @media screen and (max-width: $break-sm) {
     margin-bottom: 50px;
+    .cline__img{
+      width: 65px;
+    }
   }
 }
 // End our-cline 

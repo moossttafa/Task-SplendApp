@@ -14,43 +14,40 @@ $(document).ready(function(){
     $(".reviews").on("click" , function(){
         $(this).find(".comment").toggleClass("active"); 
     });
-
+});
     // Place any jQuery/helper plugins in here.
-$('.owl-carousel').owlCarousel({
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:20,
+      nav:false,
+      dots : false,
+      responsive:{
+        0:{
+          items:2
+        },
+        600:{
+          items:3
+        },
+        1000:{
+          items:4
+        }
+      }
+    });
+
+  $('.slider-cline').owlCarousel({
     loop:true,
     margin:20,
-    nav:true,
+    nav:false,
+    dots : false,
     responsive:{
       0:{
-        items:2
+        items:1
       },
       600:{
-        items:3
+        items:1
       },
       1000:{
-        items:4
+        items:1
       }
     }
-  });
-
-    // $('.owl-cline').owlCarousel({
-    //     loop:true,
-    //     margin:20,
-    //     nav:true,
-    //     responsive:{
-    //       0:{
-    //         items:4
-    //       },
-    //       600:{
-    //         items:3
-    //       },
-    //       1000:{
-    //         items:6
-    //       }
-    //     }
-    //   }) 
-});
-
- 
- 
- 
+  }) 

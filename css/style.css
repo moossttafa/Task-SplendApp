@@ -628,6 +628,9 @@ header .side-nav .side-nav__list .search {
   .our-cline {
     margin-bottom: 50px;
   }
+  .our-cline .cline__img {
+    width: 65px;
+  }
 }
 
 .bottom-navigation {
