@@ -269,15 +269,16 @@ header .side-nav .side-nav__list .search {
     padding: 5px 0;
   }
   .carousel__content .image-wrapper {
-    width: 200px;
+    width: 195px;
     padding-top: 15px;
   }
   .carousel__content .content {
     margin-right: auto;
     padding-top: 40px;
+    padding-left: 10px;
   }
   .carousel__content .content h3 {
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 0px;
   }
   .carousel__content .content p {
@@ -475,10 +476,11 @@ header .side-nav .side-nav__list .search {
 
 .bookcases .banner__wrapper .image-wrapper {
   margin-left: 20px;
+  width: 60%;
 }
 
 .bookcases .banner__wrapper .image-wrapper img {
-  width: 300px;
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {
