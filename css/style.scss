@@ -561,5 +561,47 @@ header {
     width: 100%;
   }
   }
+  @media screen and (max-width: $break-sm) {
+    margin-bottom: 50px;
+  }
 }
 // End our-cline 
+// start bottom-navigation
+.bottom-navigation{
+  padding: 5px 0;
+  background: #FFF;
+  border-top: 1px solid #DDD;
+  display: none;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 22;
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    padding: 10px 0;
+    margin-bottom: 0;
+    li{
+      a{
+        display: grid;
+        text-align: center;
+        color: #a2a2a3;
+        i{
+          font-size: 14px;
+          &.active{
+            color: $mainColor2;
+          }
+        }
+      span{
+        font-size: 10px;
+      }
+      }
+    }
+  }
+  @media screen and (max-width: $break-sm) {
+    display: block;
+  }
+}
